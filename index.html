@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BEAUTYORA — dekorativní kosmetika, která podtrhne vaši přirozenou krásu.">
+  <title>BEAUTYORA — Makeup · Beauty · You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">DOPRAVA ZDARMA PŘI NÁKUPU NAD 1 500 Kč <span>✦</span> MALÝ LUXUS PRO KAŽDÝ DEN</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="BEAUTYORA – domů">BEAUTYORA<span>MAKEUP · BEAUTY · YOU</span></a>
+    <a class="menu-toggle" href="#mobilni-menu" aria-label="Přejít na navigaci">☰</a>
+    <nav class="main-nav" id="mobilni-menu" aria-label="Hlavní navigace">
+      <a class="active" href="#">Domů</a><a href="#produkty">Produkty⌄</a><a href="#znacky">Značky</a><a href="#novinky">Novinky</a><a href="#onas">O nás</a><a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="header-actions">
+      <button aria-label="Hledat" title="Hledat">⌕</button><button aria-label="Můj účet" title="Můj účet">♙</button>
+      <button class="cart" aria-label="Košík">♧ <span id="cart-count">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">DEKORATIVNÍ KOSMETIKA</p>
+        <h1>Krása, která<br>podtrhne Tebe</h1>
+        <p class="hero-description">Objevte svět prémiové dekorativní kosmetiky,<br class="desktop-only"> která zvýrazní vaši přirozenou krásu.</p>
+        <a class="button button-gold" href="#produkty">NAKUPOVAT NYNÍ <span>→</span></a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Luxusní kosmetika a beauty portrét"></div>
+    </section>
+
+    <section class="categories" aria-label="Kategorie produktů">
+      <a href="#produkty" class="category"><span class="category-image lipstick"></span><span>RTY <b>→</b></span></a>
+      <a href="#produkty" class="category"><span class="category-image powder"></span><span>PLEŤ <b>→</b></span></a>
+      <a href="#produkty" class="category"><span class="category-image eyeshadow"></span><span>OČI <b>→</b></span></a>
+      <a href="#produkty" class="category"><span class="category-image mascara"></span><span>ŘASY <b>→</b></span></a>
+      <a href="#produkty" class="category"><span class="category-image brush"></span><span>ŠTĚTCE <b>→</b></span></a>
+      <a href="#produkty" class="category"><span class="category-image extras"></span><span>DOPLŇKY <b>→</b></span></a>
+    </section>
+
+    <section class="benefits" aria-label="Výhody nákupu">
+      <div><span class="benefit-icon">♧</span><strong>DOPRAVA ZDARMA</strong><p>při nákupu nad 1 500 Kč</p></div>
+      <div><span class="benefit-icon">♢</span><strong>GARANCE KVALITY</strong><p>originální produkty</p></div>
+      <div><span class="benefit-icon">♡</span><strong>VĚRNOSTNÍ PROGRAM</strong><p>za každý nákup</p></div>
+      <div><span class="benefit-icon">♧</span><strong>ZÁKAZNICKÁ PODPORA</strong><p>rádi vám poradíme</p></div>
+    </section>
+
+    <section class="products-section" id="produkty">
+      <div class="section-heading">
+        <div class="heading-label"><span></span> NEJPRODÁVANĚJŠÍ <span></span></div>
+        <h2>Oblíbené produkty</h2>
+        <a href="#produkty" class="view-all">Zobrazit vše →</a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-photo photo-lip"><span class="tag">BESTSELLER</span><button class="heart" aria-label="Přidat rtěnku do oblíbených">♡</button></div>
+          <p class="product-brand">DIOR</p><h3>Rouge Dior – Rtěnka</h3><p class="rating">★★★★★ <small>(124)</small></p><p class="price">1 290 Kč</p><div class="swatches"><i></i><i></i><i></i><i></i><i></i></div>
+          <button class="add-to-cart">ZOBRAZIT PRODUKT</button>
+        </article>
+        <article class="product-card">
+          <div class="product-photo photo-powder"><button class="heart" aria-label="Přidat pudr do oblíbených">♡</button></div>
+          <p class="product-brand">CHARLOTTE TILBURY</p><h3>Airbrush Flawless Finish</h3><p class="rating">★★★★★ <small>(98)</small></p><p class="price">1 390 Kč</p><div class="swatches"><i></i><i></i><i></i><i></i></div>
+          <button class="add-to-cart">ZOBRAZIT PRODUKT</button>
+        </article>
+        <article class="product-card">
+          <div class="product-photo photo-foundation"><button class="heart" aria-label="Přidat make-up do oblíbených">♡</button></div>
+          <p class="product-brand">NARS</p><h3>Natural Radiant Longwear Foundation</h3><p class="rating">★★★★★ <small>(76)</small></p><p class="price">1 490 Kč</p><div class="swatches"><i></i><i></i><i></i><i></i></div>
+          <button class="add-to-cart">ZOBRAZIT PRODUKT</button>
+        </article>
+        <article class="product-card">
+          <div class="product-photo photo-palette"><button class="heart" aria-label="Přidat paletku do oblíbených">♡</button></div>
+          <p class="product-brand">DIOR</p><h3>5 Couleurs Couture</h3><p class="rating">★★★★★ <small>(62)</small></p><p class="price">1 450 Kč</p><div class="swatches"><i></i><i></i><i></i><i></i></div>
+          <button class="add-to-cart">ZOBRAZIT PRODUKT</button>
+        </article>
+        <article class="product-card">
+          <div class="product-photo photo-mascara"><button class="heart" aria-label="Přidat řasenku do oblíbených">♡</button></div>
+          <p class="product-brand">LANCÔME</p><h3>Hypnôse Mascara</h3><p class="rating">★★★★★ <small>(89)</small></p><p class="price">890 Kč</p><div class="swatches"><i></i><i></i><i></i><i></i></div>
+          <button class="add-to-cart">ZOBRAZIT PRODUKT</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="promos" id="novinky">
+      <article class="promo promo-collection">
+        <div class="promo-copy"><p class="eyebrow">NOVÁ KOLEKCE</p><h2>Luxusní líčení<br>pro každý den</h2><p>Prémiové značky, které milujete.</p><a class="button button-gold" href="#produkty">OBJEVIT KOLEKCI →</a></div>
+      </article>
+      <article class="promo promo-tips" id="onas">
+        <div class="promo-copy"><p class="eyebrow">TIPY & INSPIRACE</p><h2>Líčení krok za krokem</h2><p>Objevte naše beauty tipy, které vám pomohou zazářit.</p><a class="button button-gold" href="#kontakt">ČÍST ČLÁNKY →</a></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer" id="kontakt">
+    <div class="footer-script">Buďte vždy<br>v obraze</div>
+    <form class="newsletter" id="newsletter-form">
+      <label for="email">PŘIHLASTE SE K ODBĚRU NOVINEK</label>
+      <p>Získejte tipy, novinky a exkluzivní nabídky přímo do své e-mailové schránky.</p>
+      <div class="email-row"><input type="email" id="email" placeholder="Váš e-mail" required><button type="button">PŘIHLÁSIT SE</button></div>
+      <p class="form-message" id="form-message" aria-live="polite"></p>
+    </form>
+    <div class="social"><p>Sledujte nás</p><div><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Pinterest">℘</a><a href="#" aria-label="TikTok">♪</a><a href="#" aria-label="YouTube">▶</a></div></div>
+    <p class="copyright">© 2025 BEAUTYORA · Ukázkový e-shop</p>
+  </footer>
+</body>
+</html>
